@@ -10,7 +10,7 @@ spring:
           filters:
             - StripPrefix=2
             - name: LoggingOrderFilter
-            - name: Authentication
+            - name: AuthenticationGatewayFilterFactory
               args:
                 isEnabled: false
             - name:
