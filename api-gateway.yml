@@ -15,7 +15,7 @@ spring:
                 isEnabled: false
             - name:
                 args:
-                  allowedRoles: ADMIN, SUPER_ADMIN
+                  allowedRoles: "ADMIN", "SUPER_ADMIN"
         - id: inventory-service
           uri: lb://INVENTORY-SERVICE
           predicates:
