@@ -13,7 +13,7 @@ spring:
             - name: Authentication
               args:
                 isEnabled: false
-            - name:
+            - name: Authorization
                 args:
                   allowedRoles:
                     - ADMIN
